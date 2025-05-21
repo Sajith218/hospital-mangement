@@ -1,0 +1,17 @@
+{% extends 'hospital/base.html' %}
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Home - Hospital Management{% endblock %}</title>
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+</head>
+<body>
+    {% block content %}
+    <h2>Welcome to the Hospital Management System</h2>
+    <p>Manage doctors, patients, and appointments efficiently.</p>
+    {% endblock %}
+</body>
+</html>
